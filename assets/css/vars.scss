@@ -1,0 +1,28 @@
+$grey: #292929;
+$yellow: #EBBC43;
+$yellow--hover: #be963a;
+$rounding: 5pt;
+$grey--light: #434343;
+$grey--lighter: #6a6a6a;
+$footer: #eeeeee;
+$footer--lighter: #f7f7f7;
+$red: #F2545B;
+$red--hover: #c14348;
+@mixin rounded {
+  -webkit-border-radius: $rounding;
+  -moz-border-radius: $rounding;
+  border-radius: $rounding;
+}
+
+@mixin transition {
+  transition-duration: 0.5s;
+}
+
+@mixin shadow {
+  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(#000000, 0.16);
+}
+
+@mixin shadow--large {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

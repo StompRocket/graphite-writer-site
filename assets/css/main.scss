@@ -1,0 +1,99 @@
+@import "vars";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+
+html, body, #app, .page {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  color: $grey;
+
+}
+
+a {
+  color: $yellow;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.mainNav {
+  background: $grey;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  img {
+    height: 5vh;
+    position: relative;
+    margin-bottom: 2%;
+
+  }
+  .brandLink {
+    margin-right: auto;
+  }
+  a {
+    margin: 0 1%;
+  }
+
+}
+
+.btn {
+  @include rounded;
+  @include shadow;
+  display: inline-block;
+  background: $grey;
+  padding: 1% 2%;
+  color: $yellow;
+  text-decoration: none;
+  @include transition;
+  &:hover {
+    text-decoration: none;
+    background: $grey--light;
+    box-shadow: none;
+  }
+}
+
+.btn.yellow {
+  background: $yellow;
+  color: $grey;
+  &:hover {
+    text-decoration: none;
+    background: $yellow--hover;
+  }
+}
+
+.homePage {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 1.5fr 1.5fr 1fr 1.5fr;
+  height: 440vh;
+}
+
+.coverImage {
+  background: url("../../assets/images/homeBanner.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5%;
+  .tagLine {
+    margin-top: auto;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .cta {
+    width: 10vw;
+    text-align: center;
+    margin-top: 1%;
+
+  }
+  .legacyNotice {
+    color: $grey;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 1%;
+  }
+}

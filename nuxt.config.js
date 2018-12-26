@@ -27,6 +27,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/css/main.scss',
+    '@/node_modules/minireset.css/minireset.min.css'
   ],
 
   /*
