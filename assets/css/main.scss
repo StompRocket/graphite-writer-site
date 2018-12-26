@@ -97,6 +97,7 @@ a {
     margin-bottom: 1%;
   }
 }
+
 .features {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -170,10 +171,12 @@ a {
     background-size: 120%;
   }
 }
+
 .fast {
   background: $grey;
   color: white;
 }
+
 .big {
   text-align: center;
   display: flex;
@@ -192,4 +195,54 @@ a {
     font-weight: 200;
     font-size: 1.3rem;
   }
+}
+
+.signup {
+  background: $footer;
+  padding: 2% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .btn {
+    display: flex;
+    width: 15vw;
+    height: 5vw;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 1%;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+}
+
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $footer;
+  height: 15vh;
+  text-align: center;
+  padding: 1%;
 }

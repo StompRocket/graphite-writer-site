@@ -44,7 +44,8 @@
       </div>
       <div class="fast big">
         <h1>Fast</h1>
-        <p>Graphite Writer is an open source project created by <a target="_blank" href="https://github.com/ronan18">Ronan</a> @ <a href="https://stomprocket.io" target="_blank">Stomprocket</a>. Because it is open source anyone
+        <p>Graphite Writer is an open source project created by <a target="_blank" href="https://github.com/ronan18">Ronan</a>
+          @ <a href="https://stomprocket.io" target="_blank">Stomprocket</a>. Because it is open source anyone
           can view and improve the source code on our Github</p>
       </div>
       <div class="free big">
@@ -53,12 +54,20 @@
           Because Graphite Writer is designed for note taking, we focused on just what is necessary, a more focused and
           fast experience.</p>
       </div>
-      <div class="cta">cta</div>
-      <div class="about">about</div>
+      <div class="signup">
+        <h1>Start Taking <br> Effective Notes Now </h1>
+        <a class="btn yellow" href="https://graphite.stomprocket.io">Sign Up</a>
+      </div>
+      <div class="about">
+        <h1>About Graphite Writer</h1>
+        <p>We started Graphite Writer to solve a problem. When we tried to take notes during class on Google Docs the
+          teacher would start lecturing before it loaded, preventing us from taking effective notes. Version one of
+          Graphite Writer solved this problem. We were able to take notes with speed and ease, but there still wasn't
+          and easy way to search and organize them. Graphite Writer version two aims to solve this problem. We have
+          spent months researching and designing custom machine learning algorithms to help you find what you need, when
+          you need it.</p>
+      </div>
     </main>
-    <footer>
-      footer
-    </footer>
   </div>
 
 </template>
