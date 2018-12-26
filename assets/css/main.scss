@@ -170,3 +170,26 @@ a {
     background-size: 120%;
   }
 }
+.fast {
+  background: $grey;
+  color: white;
+}
+.big {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    font-size: 20vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 5px $yellow;
+  }
+  p {
+    display: block;
+    width: 60%;
+    align-self: center;
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+}

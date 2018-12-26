@@ -19,7 +19,8 @@
       <div class="features">
         <div class="header">
           <h1>Designed For Students</h1>
-          <p class="text">Graphite Writer not only organizes notes by class, it uses an intelligent search system that lets you find
+          <p class="text">Graphite Writer not only organizes notes by class, it uses an intelligent search system that
+            lets you find
             notes with ease.</p>
           <p class="scroll">scroll to learn more</p>
         </div>
@@ -41,8 +42,17 @@
 
         </div>
       </div>
-      <div class="free">free</div>
-      <div class="fast">fast</div>
+      <div class="fast big">
+        <h1>Fast</h1>
+        <p>Graphite Writer is an open source project created by <a target="_blank" href="https://github.com/ronan18">Ronan</a> @ <a href="https://stomprocket.io" target="_blank">Stomprocket</a>. Because it is open source anyone
+          can view and improve the source code on our Github</p>
+      </div>
+      <div class="free big">
+        <h1>Free</h1>
+        <p>From the beginning Graphite Writer was primarily focused on speed, that holds true in this latest version.
+          Because Graphite Writer is designed for note taking, we focused on just what is necessary, a more focused and
+          fast experience.</p>
+      </div>
       <div class="cta">cta</div>
       <div class="about">about</div>
     </main>
