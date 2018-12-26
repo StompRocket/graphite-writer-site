@@ -69,7 +69,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 3fr 1.5fr 1.5fr 1fr 1.5fr;
-  height: 440vh;
+  height: 400vh;
 }
 
 .coverImage {
@@ -95,5 +95,78 @@ a {
     align-self: center;
     margin-top: auto;
     margin-bottom: 1%;
+  }
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  .header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    h1 {
+      text-align: center;
+      font-size: 3vw;
+      font-weight: 700;
+      margin-top: auto;
+
+    }
+    .text {
+      font-weight: 200;
+      text-align: center;
+      font-size: 1.3rem;
+
+    }
+    .scroll {
+      text-align: center;
+      margin-top: auto;
+      font-weight: 200;
+      font-size: 1rem;
+    }
+  }
+  .feature {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    padding-left: 10%;
+    h2 {
+      font-weight: 700;
+      font-size: 3vw;
+
+    }
+    p {
+      font-weight: 200;
+      margin-top: 1%;
+      font-size: 1.2rem;
+    }
+  }
+  .feature.class {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: end;
+  }
+  .feature.topics {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .feature.sync {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-self: start;
+  }
+  .featureImg {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: url("../../assets/images/graphite.png") left center no-repeat;
+    background-size: 120%;
   }
 }
