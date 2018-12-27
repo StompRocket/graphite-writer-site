@@ -4,9 +4,9 @@
       <a class="brandLink" href="#top">
         <img src="@/assets/brand/logoWhite.svg" alt="Graphite Writer">
       </a>
-      <a href="#pricing">Pricing</a>
-      <a href="#about">About</a>
-      <a href="https://legacy.graphitewriter.com">Older Versions</a>
+      <a class="link" href="#pricing">Pricing</a>
+      <a class="link" href="#about">About</a>
+      <a class="link hide--small" href="https://legacy.graphitewriter.com">Older Versions</a>
       <a href="https://graphite.stomprocket.io" class="btn yellow">Login</a>
     </nav>
     <main class="homePage" id="top">
@@ -22,7 +22,7 @@
           <p class="text">Graphite Writer not only organizes notes by class, it uses an intelligent search system that
             lets you find
             notes with ease.</p>
-          <p class="scroll">scroll to learn more</p>
+          <p class="scroll hide--small">scroll to learn more</p>
         </div>
         <div class="feature class">
           <h2>Day Of Class</h2>
